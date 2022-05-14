@@ -32,6 +32,7 @@ downloadsPath = "/Users/omdharme/Downloads"
 observer = Observer()
 handler = Handler()
 
+observer.schedule(handler, downloadsPath)
 observer.start()
 
 try:
